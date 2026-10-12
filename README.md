@@ -1,3 +1,5 @@
+**Source files:** Download and extract [the project archive](coconut-farming-management-system.zip). The component paths below refer to the extracted archive.
+
 # Coconut Farming Management System
 
 Team project combining a Spring Boot farm management backend, React frontend, coconut leaf disease detection service, and a chatbot service.
