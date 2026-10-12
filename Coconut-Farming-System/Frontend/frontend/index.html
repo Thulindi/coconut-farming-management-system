@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/coconut.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CocoSmart - Bring Fresh Growth To Coconut Farming</title>
+    
+    <!-- Fonts and Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    
+    <!-- Tailwind CDN (as requested for Landing Page styles) -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "surface-dim": "#d8dada",
+              "on-primary-fixed-variant": "#2c4d3f",
+              "on-secondary-fixed-variant": "#2c4d3f",
+              "on-tertiary-fixed": "#002113",
+              "secondary-fixed-dim": "#aacfbc",
+              "on-primary-fixed": "#002115",
+              "inverse-primary": "#aacfbb",
+              "outline-variant": "#c1c8c2",
+              "inverse-surface": "#2e3131",
+              "tertiary-fixed": "#bfedd1",
+              "on-surface": "#191c1c",
+              "surface-bright": "#f8faf9",
+              "primary-container": "#1b3d2f",
+              "surface-variant": "#e1e3e2",
+              "surface-container-highest": "#e1e3e2",
+              "surface-tint": "#436556",
+              "error": "#ba1a1a",
+              "on-secondary": "#ffffff",
+              "on-primary": "#ffffff",
+              "primary": "#03271a",
+              "secondary-container": "#c3e8d4",
+              "surface-container-lowest": "#ffffff",
+              "surface-container-low": "#f2f4f3",
+              "primary-fixed": "#c5ebd7",
+              "on-tertiary": "#ffffff",
+              "on-error": "#ffffff",
+              "on-background": "#191c1c",
+              "on-primary-container": "#84a895",
+              "primary-fixed-dim": "#aacfbb",
+              "on-secondary-fixed": "#002115",
+              "inverse-on-surface": "#eff1f0",
+              "on-tertiary-container": "#7ea990",
+              "surface-container": "#eceeed",
+              "tertiary-fixed-dim": "#a4d1b6",
+              "on-secondary-container": "#486a5a",
+              "surface-container-high": "#e6e9e8",
+              "tertiary-container": "#143e2b",
+              "error-container": "#ffdad6",
+              "secondary-fixed": "#c6ebd7",
+              "on-tertiary-fixed-variant": "#254f3a",
+              "on-surface-variant": "#414844",
+              "surface": "#f8faf9",
+              "tertiary": "#002717",
+              "secondary": "#446556",
+              "outline": "#727974",
+              "on-error-container": "#93000a",
+              "background": "#f8faf9"
+            },
+            fontFamily: {
+              "headline": ["Manrope"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+    <style>
+      .material-symbols-outlined {
+          font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+      }
+      .hero-mask {
+          mask-image: linear-gradient(to bottom, black 85%, transparent 100%);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

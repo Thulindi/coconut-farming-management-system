@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+groq
+langchain-chroma
+langchain-community
+langchain-huggingface
+langchain-text-splitters
+pdfminer.six
+sentence-transformers
+openai-whisper
+python-multipart

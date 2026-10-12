@@ -1,0 +1,27 @@
+# Dependencies and generated output
+node_modules/
+target/
+build/
+dist/
+.gradle/
+.expo/
+coverage/
+__pycache__/
+*.pyc
+*.log
+*.db
+*.sqlite*
+uploads/
+coconut_db/
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+*.keystore
+debug.keystore
+.idea/
+.vscode/

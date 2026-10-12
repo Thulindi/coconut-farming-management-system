@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+env/
+
+# Scratch / development test files (not part of production)
+scratch/
+
+# ChromaDB vector store (auto-generated, rebuild with member1_rag.py)
+coconut_db/
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db

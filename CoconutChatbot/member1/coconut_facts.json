@@ -1,0 +1,51 @@
+{
+  "varieties": {
+    "TXB": {
+      "full_name": "Tall x Breeder",
+      "characteristics": "High yielding, suitable for commercial plantations. Starts bearing in 4-5 years.",
+      "si": "වැඩි අස්වැන්නක් ලබා දෙන වාණිජ වගාවන් සඳහා සුදුසු ප්‍රභේදයකි. අවුරුදු 4-5 කින් අස්වැන්න ලබා දීම ආරම්භ කරයි."
+    },
+    "CRIC60": {
+      "full_name": "Coconut Research Institute Selection 60",
+      "characteristics": "Popular tall variety, drought tolerant.",
+      "si": "නියඟයට ඔරොත්තු දෙන ජනප්‍රිය උස පොල් ප්‍රභේදයකි."
+    },
+    "CRIC65": {
+      "full_name": "Coconut Research Institute Selection 65",
+      "characteristics": "Dwarf variety, fast bearing.",
+      "si": "ඉක්මනින් අස්වැන්න ලබා දෙන කුරු පොල් ප්‍රභේදයකි."
+    }
+  },
+  "fertilizer": {
+    "young_plants": {
+      "dosage": "Apply 0.5kg to 1.5kg of APM (Adult Palm Mixture) per plant per year in two splits.",
+      "si": "පැලයකට වසරකට APM පොහොර මිශ්‍රණය කිලෝග්‍රෑම් 0.5 සිට 1.5 දක්වා වාර දෙකකදී යොදන්න."
+    },
+    "adult_palms": {
+      "dosage": "Apply 3kg to 5kg of YPM (Yielding Palm Mixture) per palm per year. Best time is when soil is moist.",
+      "si": "පීදුණු ගසකට වසරකට YPM පොහොර මිශ්‍රණය කිලෝග්‍රෑම් 3 සිට 5 දක්වා යොදන්න. පස තෙතමනය ඇති කාලය වඩාත් සුදුසුය."
+    }
+  },
+  "diseases": {
+    "red_palm_weevil": {
+      "symptoms": "Holes in the trunk, chewed fiber, yellowing of crown.",
+      "treatment": "Inject Fenthion or Monocrotophos into the affected holes and seal with mud.",
+      "si": "කඳේ සිදුරු ඇතිවීම, කෙඳි ඉවත් වීම සහ ගොක් කොළ කහ වීම. සිදුරු වලට කෘමිනාශක ඇතුළු කර මැටි වලින් සීල් කරන්න."
+    },
+    "bud_rot": {
+      "symptoms": "Yellowing and wilting of the central leaf (spear leaf), foul smell.",
+      "treatment": "Remove affected parts and apply Bordeaux paste or Copper Oxychloride.",
+      "si": "මැද ගොක් කොළය කහ වී මැලවීම සහ දුර්ගන්ධයක් හැමීම. ආසාදිත කොටස් ඉවත් කර බෝඩෝ පේස්ට් හෝ කොපර් ඔක්සික්ලෝරයිඩ් යොදන්න."
+    }
+  },
+  "planting": {
+    "spacing": {
+      "square_system": "26ft x 26ft (8m x 8m)",
+      "si": "අඩි 26 x අඩි 26 (මීටර් 8 x මීටර් 8) පරතරය."
+    },
+    "pit_size": {
+      "dimensions": "3ft x 3ft x 3ft (1m x 1m x 1m)",
+      "si": "අඩි 3 x අඩි 3 x අඩි 3 (මීටර් 1 x මීටර් 1 x මීටර් 1) ප්‍රමාණයේ වලවල්."
+    }
+  }
+}

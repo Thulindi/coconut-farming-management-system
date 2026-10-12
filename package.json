@@ -1,0 +1,16 @@
+{
+  "name": "coconut-farming-system-master",
+  "version": "1.0.0",
+  "description": "Master controller for Coconut Farming System",
+  "scripts": {
+    "install:all": "npm install --prefix Coconut-Farming-System/Frontend/frontend",
+    "dev:frontend": "npm run dev --prefix Coconut-Farming-System/Frontend/frontend",
+    "dev:backend": "cd Coconut-Farming-System/Backend && mvnw spring-boot:run",
+    "dev:chatbot": "cd CoconutChatbot && uvicorn app:app --reload",
+    "dev:model": "cd Coconut_Disease_Detection && uvicorn main:app --reload --port 8001",
+    "dev": "npx concurrently \"npm run dev:frontend\" \"npm run dev:backend\" \"npm run dev:chatbot\" \"npm run dev:model\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
